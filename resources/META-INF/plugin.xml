@@ -29,31 +29,20 @@
     </extensions>
 
     <actions>
-         <action
-                 id="StackOverflow.Search.Editor"
-                 class="com.tpt.intellij.LongToDateAction"
-                 text="Search on Stack Overflow"
-                 description="Search on Stack Overflow">
-             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
-         </action>
-         <action
-                 id="StackOverflow.Search.Console"
-                 class="com.tpt.intellij.LongToDateAction"
-                 text="Search on Stack Overflow"
-                 description="Search on Stack Overflow">
-             <add-to-group group-id="ConsoleEditorPopupMenu" anchor="last"/>
-         </action>
-        <!--<action id="com.tpt.intellij.LongToDateAction"
+        <action
+                id="LongToDate.Editor"
                 class="com.tpt.intellij.LongToDateAction"
-                text="LongToDate"
-                description="LongToDate">>
-            <add-to-group group-id="Debugger.InspectPanelPopup" anchor="first"/>
-        </action>-->
-        <!--<action id="com.tpt.intellij.LongToDateAction" class="com.tpt.intellij.LongToDateAction" text="LongTodate"
-                description="LongTodate">
-            <add-to-group group-id="Debugger.InspectPanelPopup" anchor="first"/>
-            <keyboard-shortcut keymap="$default" first-keystroke="SPACE"/>
-        </action>-->
+                text="Convert Long to Date"
+                description="Convert Long to Date">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+        <action
+                id="LongToDate.Console"
+                class="com.tpt.intellij.LongToDateAction"
+                text="Convert Long to Date"
+                description="Convert Long to Date">
+            <add-to-group group-id="ConsoleEditorPopupMenu" anchor="last"/>
+        </action>
     </actions>
 
 </idea-plugin>
