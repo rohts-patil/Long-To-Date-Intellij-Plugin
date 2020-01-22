@@ -1,10 +1,11 @@
 # Long-To-Date-Intellij-Plugin
-Intellij-Plugin to convert long epoch to Date
+Intellij-Plugin to convert long epoch milliseconds to date.
 
 ### Features
 - [x] Convert from Editor.
 - [x] Convert from Console.
 - [x] Convert from Debugger.
+- [ ] Convert from Tools.
 
 
 ### Installation
