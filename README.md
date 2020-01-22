@@ -11,9 +11,11 @@ Intellij-Plugin to convert long epoch to Date
 
 ![Installation Demo](gif/installation.gif)
 
-### Usage
+### Usage from editor
+![Editor Demo](gif/editor.gif)
 
-1. From Editor
+### Usage from From Console
+![Editor Demo](gif/console.gif)
 
-2. From Console
-3. From Debugger
+### Usage from From Debugger
+![Editor Demo](gif/debugger.gif)
