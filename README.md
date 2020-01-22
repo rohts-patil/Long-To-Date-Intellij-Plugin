@@ -5,3 +5,10 @@ Intellij-Plugin to convert long epoch to Date
 - [x] Convert from Editor.
 - [x] Convert from Console.
 - [x] Convert from Debugger.
+
+
+### Usage
+
+1. From Editor
+2. From Console
+3. From Debugger
