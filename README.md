@@ -7,8 +7,13 @@ Intellij-Plugin to convert long epoch to Date
 - [x] Convert from Debugger.
 
 
+### Installation
+
+![Installation Demo](gif/installation.gif)
+
 ### Usage
 
 1. From Editor
+
 2. From Console
 3. From Debugger
