@@ -1,17 +1,15 @@
 <idea-plugin>
-    <id>com.your.company.unique.plugin.id</id>
-    <name>Plugin display name here</name>
-    <version>1.0</version>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <id>com.rohit.patil.long.date</id>
+    <name>LongTimeToDate</name>
+    <version>0.1</version>
+    <vendor email="rohts.patil@gmail.com" url="https://rohts-patil.github.io/CV/">Rohit Patil</vendor>
 
     <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+     This plugin will help you to visualize the epoch time to Date. You can use this from debugger, editor or from console.
     ]]></description>
 
     <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      Release 0.1
     ]]>
     </change-notes>
 
@@ -30,18 +28,31 @@
 
     <actions>
         <action
+                id="LongToDate.ToolsMenu"
+                class="com.tpt.intellij.LongToDateAction"
+                text="Convert Long to Date"
+                description="Convert long to date">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action
                 id="LongToDate.Editor"
                 class="com.tpt.intellij.LongToDateAction"
                 text="Convert Long to Date"
-                description="Convert Long to Date">
+                description="Convert long to date">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
         </action>
         <action
                 id="LongToDate.Console"
                 class="com.tpt.intellij.LongToDateAction"
                 text="Convert Long to Date"
-                description="Convert Long to Date">
+                description="Convert long to date">
             <add-to-group group-id="ConsoleEditorPopupMenu" anchor="last"/>
+        </action>
+        <action id="com.tpt.intellij.LongToDateDebuggerAction"
+                class="com.tpt.intellij.LongToDateDebuggerAction"
+                text="Convert Long to Date"
+                description="Convert long to date">
+            <add-to-group group-id="XDebugger.ValueGroup" anchor="first"/>
         </action>
     </actions>
 
