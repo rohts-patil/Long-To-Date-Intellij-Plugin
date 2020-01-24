@@ -20,3 +20,5 @@ Intellij-Plugin to convert long epoch milliseconds to date.
 
 ### Usage from From Debugger
 ![Editor Demo](gif/debugger.gif)
+
+For more info visit https://plugins.jetbrains.com/plugin/13703-longtimetodate/
